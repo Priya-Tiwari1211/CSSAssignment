@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 11px;
+}
+
+.outerbox {
+  width: 347px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px 10px 0 0;
+  background-color: #0055e5;
+}
+
+.headerbox {
+  background: rgba(0, 67, 207, 1);
+  background: linear-gradient(
+    top,
+    rgba(0, 67, 207, 1) 0%,
+    rgba(2, 106, 254, 1) 1%,
+    rgba(0, 67, 207, 1) 14%,
+    rgba(0, 85, 229, 1) 57%,
+    rgba(2, 106, 254, 1) 92%,
+    rgba(0, 67, 207, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 67, 207, 1) 0%,
+    rgba(2, 106, 254, 1) 1%,
+    rgba(0, 67, 207, 1) 14%,
+    rgba(0, 85, 229, 1) 57%,
+    rgba(2, 106, 254, 1) 92%,
+    rgba(0, 67, 207, 1) 100%
+  );
+  height: 25px;
+}
+
+.headerbox,
+.headerbox .btn {
+  color: #fff;
+}
+.headerbox,
+.boxcontent {
+  padding: 2px;
+}
+
+.boxoptions div,
+#btnclose,
+.btnoptions,
+.headerbox .btn {
+  border-radius: 3px;
+}
+
+.headerbox .btn {
+  width: 21px;
+  font-size: 18px;
+  margin-left: 2px;
+  border: 1px solid #fff;
+}
+
+.headerbox .close {
+  background: rgba(240, 169, 148, 1);
+  background: linear-gradient(
+    -45deg,
+    rgba(240, 169, 148, 1) 0%,
+    rgba(231, 99, 56, 1) 38%,
+    rgba(188, 77, 47, 1) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(240, 169, 148, 1) 0%,
+    rgba(231, 99, 56, 1) 38%,
+    rgba(188, 77, 47, 1) 100%
+  );
+}
+
+.headerbox .help {
+  background: rgba(124, 160, 248, 1);
+  background: linear-gradient(
+    -45deg,
+    rgba(124, 160, 248, 1) 0%,
+    rgba(62, 117, 245, 1) 30%,
+    rgba(44, 124, 247, 1) 68%,
+    rgba(40, 95, 227, 1) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(124, 160, 248, 1) 0%,
+    rgba(62, 117, 245, 1) 30%,
+    rgba(44, 124, 247, 1) 68%,
+    rgba(40, 95, 227, 1) 100%
+  );
+}
+
+.headerbox span,
+.headerbox .btn {
+  font-weight: bold;
+}
+
+.headerbox span {
+  padding-top: 4px;
+}
+
+.headerbox span,
+.outerbox {
+  font-size: 14px;
+  padding-left: 2px;
+}
+
+.headerbox span,
+.innerbox > div {
+  display: inline-block;
+}
+
+.innerbox .boxcontent p {
+  padding-bottom: 2px;
+}
+
+.innerbox > div {
+  height: 182px;
+}
+
+.innerbox {
+  background-color: #ece9d8;
+}
+
+#btnclose,
+.boxoptions div {
+  background-color: #f5f4ea;
+}
+
+.boxcontent {
+  width: 251px;
+}
+
+.boxcontent,
+.boxoptions {
+  padding: 7px 7px 4px 5px;
+}
+
+.boxcontent #text_content {
+  resize: none;
+}
+
+#btnclose,
+.boxoptions,
+.headerbox .btn {
+  float: right;
+}
+
+#btnclose,
+.boxoptions {
+  margin-top: 5px;
+}
+
+.boxoptions {
+  width: 90px;
+}
+
+.outerbox {
+  padding: 3px;
+}
+
+.boxoptions div,
+#btnclose,
+.headerbox .btn {
+  height: 21px;
+}
+
+.boxoptions div,
+#btnclose {
+  border: 1px solid #c9c7ba;
+  width: 73px;
+  margin-bottom: 9px;
+  padding: 1px;
+}
+
+.btnoptions {
+  height: 17px;
+}
+
+.boxoptions div:first-child,
+#btnclose {
+  background: rgba(255, 255, 255, 1);
+  background: linear-gradient(
+    top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(243, 243, 238, 1) 47%,
+    rgba(214, 208, 197, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(243, 243, 238, 1) 47%,
+    rgba(214, 208, 197, 1) 100%
+  );
+}
+
+.boxoptions div:first-child,
+#btnclose,
+.boxcontent #text_content {
+  border-color: #406d97;
+}
+
+.boxoptions #parent_new {
+  background: rgba(193, 216, 243, 1);
+  background: linear-gradient(
+    top,
+    rgba(193, 216, 243, 1) 0%,
+    rgba(115, 143, 230, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(193, 216, 243, 1) 0%,
+    rgba(115, 143, 230, 1) 100%
+  );
+}
+.boxoptions #parent_new:hover,
+.boxoptions #parent_new:active,
+#btnclose:active,
+#btn-close:hover {
+  background: rgba(193, 216, 243, 1);
+  background: linear-gradient(
+    top,
+    rgba(193, 216, 243, 1) 0%,
+    rgba(115, 143, 230, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(193, 216, 243, 1) 0%,
+    rgba(115, 143, 230, 1) 100%
+  );
+}
+
+#text_content,
+.btnoptions {
+  width: 100%;
+}
+#btnclose {
+  border: 1px solid #0055e5;
+}
+#text_content {
+  height: 121px;
+}
+#parent_new .btnoptions {
+  border: 1px dotted black;
+}
+
+.disabled button:hover,
+.disabled button:active,
+.disabled button:focus,
+.btnoptions {
+  border: 0;
+  outline: none;
+}
+
+.boxoptions #copy_parent {
+  margin-bottom: 16px;
+}
+
+.boxoptions #show_parent {
+  position: relative;
+  top: 9px;
+}
